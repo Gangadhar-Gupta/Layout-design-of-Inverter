@@ -1,0 +1,13 @@
+//Revision 3
+config \Lab9.1 ;
+design CirSimLab2.INV_TESTBENCH:schematic;
+liblist Inv_Config;
+
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist ;
+
+
+cell CirSimLab9.\Lab9.1  binding :av_extracted;
+
+
+endconfig
